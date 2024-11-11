@@ -1,8 +1,14 @@
 # AWS-tools 
 
 # Scenario: AWS Cloud Infrastructure Setup for a New Application
-Your team has been assigned the task of setting up the foundational AWS infrastructure for a new web application that will be deployed in AWS. The application will require resources like IAM groups for different teams, EC2 instances for computing, S3 for static content, and a secure VPC networking setup.
-Company Requirement:
+Your team has been assigned the task of setting up the foundational AWS infrastructure for a new web application that will be deployed in AWS. The application will require resources like
+
+IAM groups for different teams,
+EC2 instances for computing,
+S3 for static content, 
+secure VPC networking setup.
+
+# Company Requirement:
 The company has three different teams—Monitoring, Security, and Cloud Team—each with distinct roles and responsibilities. They need the appropriate IAM groups and permissions set up to manage and access specific AWS resources. The web application itself will be hosted on EC2 instances with attached EBS volumes, and the static content will be stored in an S3 bucket. For networking, the VPC should be configured with both public-facing and private subnets, along with secure connectivity between two regions via VPC peering.
 
 # Task Breakdown:
@@ -15,7 +21,6 @@ Cloud Team: The Cloud Team manages the deployment, infrastructure setup, and mai
 Deliverables:
 Create IAM groups for Monitoring, Security, and Cloud teams.
 Attach appropriate policies to these groups to reflect the job functions.
-
 
 
 2. EC2 and EBS Setup
@@ -51,3 +56,7 @@ Deliverables:
 Create a VPC with three subnets: two public and one private.
 Attach an Internet Gateway for public internet access.
 Set up a NAT Gateway for private subnet internet access.
+
+
+![image](https://github.com/user-attachments/assets/a08e9d7a-bea3-496d-b10f-12c54c43681e)
+
